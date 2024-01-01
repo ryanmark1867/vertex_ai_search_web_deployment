@@ -2,10 +2,9 @@
 
 Use the widget code generated for a Vertex AI Search app to add scoped search to a web page
 
-[gemini_try.py](https://github.com/ryanmark1867/gemini_vertex_ai_langchain/blob/master/gemini_try.py):
-- loads required libraries
-- loads local image file
-- asks Gemini pro model to describe what's in the image and prints the result
+[flask_web_deploy.py](https://github.com/ryanmark1867/vertex_ai_search_web_deployment/blob/master/flask_web_deploy.py):
+- serves [home.html](https://github.com/ryanmark1867/vertex_ai_search_web_deployment/blob/master/templates/home.html) at localhost:5000
 
-prompt_from_ui*.py
-- copied from Code panel of Vertex AI Studio example prompts
+[home.html](https://github.com/ryanmark1867/vertex_ai_search_web_deployment/blob/master/templates/home.html)
+- contains the widget code copied from the Integration page of Vertex AI Search in the Google Cloud Console
+
