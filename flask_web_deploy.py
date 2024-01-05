@@ -14,11 +14,11 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def home():   
-    ''' render home.html - page that is served at localhost that allows user to enter model scoring parameters'''
+def index():   
+    ''' render index.html - page that is served at localhost'''
     title_text = "Test widget generated for Vertex AI Search app"
     title = {'titlename':title_text}
-    return render_template('home.html',title=title) 
+    return render_template('index.html',title=title) 
     
 
     
